@@ -2,10 +2,10 @@ import java.io.*;
 import java.util.*;
 public class number
 {
-public void main(String args[])
+public static void main(String args[])
 {
 int n;
-Scanner scan=new scan(System.in);
+Scanner scan=new Scanner(System.in);
 n=scan.nextInt();
 if(n==0)
 System.out.println(n+"is zero");
